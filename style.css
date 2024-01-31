@@ -32,7 +32,7 @@ li {
     display: flex;
     align-items: center;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     margin: 0 100px;
     padding: 0;
 }
@@ -55,18 +55,27 @@ li {
 }
 
 .header-action {
-
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-width: 100%;
+    align-items: center;
 }
 
 .header-action ul {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    max-width: 100%;
     align-items: center;
 }
 
 .header-action ul li {
     position: relative;
+}
+
+.header-language {
+    display: block;
 }
 
 .select-language {
@@ -80,8 +89,10 @@ li {
 
 .header-button {
     margin-left: 35px;
+    margin-right: 40px;
     padding-left: 35px;
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 .button::before {
@@ -108,20 +119,23 @@ li {
     letter-spacing: .5px;
     line-height: 1;
     box-sizing: border-box;
+    max-width: 100%;
+    margin-right: 40px;
 }
 
 .menu-container {
     display: flex;
     align-items: center;
+    max-width: 100%;
 }
 
 .header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    width: 100%;
+    flex-wrap: nowrap;
+    /* justify-content: flex-start; */
+    max-width: 100%;
 }
 
 .header {
@@ -130,4 +144,45 @@ li {
     left: 0;
     margin: 0 30px;
     padding: 10px 15px;
+    width: 100%;
+}
+
+.menu-bar {
+    display: none;
+    /* margin-left: 40px */
+}
+
+@media screen and (max-width: 1200px) {
+    .header-language, .select-language {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .main-menu, .button::before {
+        display: none;
+    }
+    .menu-bar {
+        display: flex;
+        margin-right: 100px;
+    }
+    .header-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        /* justify-content: flex-start; */
+        width: 100%;
+    }
+
+    .header-button {
+        margin-left: 35px;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 766px) {
+    .header-button {
+        display: none;
+    }
 }
