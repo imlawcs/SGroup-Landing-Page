@@ -1,0 +1,133 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #A4B4C3;
+    font-style: normal;
+    background-color: #030B15;
+    line-height: 1.75;
+}
+
+html {
+    height: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.logo-img {
+    max-height: 65px;
+}
+
+.main-menu {
+    
+}
+
+.main-menu ul {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 100px;
+    padding: 0;
+}
+
+.main-menu ul li {
+    margin-right: 40px;
+}
+
+.main-menu ul li a {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 40px 0;
+    display: block;
+    line-height: 1;
+    position: relative;
+    z-index: 1;
+    letter-spacing: 1px;
+}
+
+.header-action {
+
+}
+
+.header-action ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header-action ul li {
+    position: relative;
+}
+
+.select-language {
+    font-size: 16px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.header-button {
+    margin-left: 35px;
+    padding-left: 35px;
+    box-sizing: border-box;
+}
+
+.button::before {
+    height: 20px;
+    opacity: .4;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2px;
+    background: #FFFFFF;
+}
+
+.button {
+    border: 2px solid transparent;
+    color: #fff;
+    text-transform: uppercase;
+    background: #00C4F4;
+    border-radius: 5px;
+    padding: 16px 35px;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: .5px;
+    line-height: 1;
+    box-sizing: border-box;
+}
+
+.menu-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0 30px;
+    padding: 10px 15px;
+}

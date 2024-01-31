@@ -1,0 +1,34 @@
+.title-wrap::before {
+    height: 600px;
+    content: "";
+    position: absolute;
+    left: 0;
+}
+
+.title-wrap {
+    position: relative;
+    padding: 180px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 54px;
+    justify-content: center;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.main-title {
+    text-align: center;
+}
+
+.title-content {
+    font-size: 55px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.title-pic img {
+    max-width: 700px;
+}
