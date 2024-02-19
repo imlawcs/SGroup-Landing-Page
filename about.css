@@ -46,7 +46,7 @@
 
 .about-main-title {
     font-size: 45px;
-    /* color: #030B15; */
+    color: #030B15;
     line-height: 1.26;
     margin: 0;
 }
@@ -94,7 +94,7 @@
 .about-content ul li {
     display: flex;
     align-items: baseline;
-    /* color: #030B15; */
+    color: #030B15;
     margin-bottom: 10px;
 }
 

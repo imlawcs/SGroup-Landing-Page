@@ -25,13 +25,28 @@
     margin: auto;
     width: 100%;
     z-index: 99;
-    background: #030B15;
+    padding: 0;
+    /* background: #030B15; */
+    animation-name: header;
+    animation-duration: 1s;
+    animation-timing-function: infinite;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
     box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+}
+
+@keyframes header {
+    from {
+        background-color: none;
+    }
+    to {
+        background-color: #030B15;
+    }
 }
 
 @media screen and (max-width: 1500px) {
     .sticky-header {
-        padding: 10px 0;
+        padding: 0px 0;
     }
 }
 

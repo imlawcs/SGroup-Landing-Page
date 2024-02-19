@@ -1,5 +1,21 @@
 .reason {
+    background-image: url(https://themedox.com/demo/bigtech-live/bigtech/assets/img/bg/choose_bg.jpg);
+    background-size: cover;
+    background-position: center;
     padding: 130px 0 218px;
+    position: relative;
+}
+
+.reason::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: url(https://themedox.com/demo/bigtech-live/bigtech/assets/img/bg/choose_shape01.png);
+    background-position: center;
+    background-repeat: repeat;
+    width: 100%;
+    height: 25px;
 }
 
 .reason-title {
@@ -9,7 +25,6 @@
 
 .reason-main-title {
     text-transform: uppercase;
-    color: #fff;
     font-size: 14px;
     font-weight: 700;
     position: relative;
