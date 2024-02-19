@@ -1,0 +1,146 @@
+.reason {
+    padding: 130px 0 218px;
+}
+
+.reason-title {
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.reason-main-title {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    letter-spacing: 0.09em;
+    display: inline-block;
+    padding: 0 15px;
+    margin-bottom: 25px;
+}
+
+.reason-main-title::before, .reason-main-title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    background: #00C4F4;
+    border-radius: 50%;
+}
+
+.reason-main-title::after {
+    left: auto;
+    right: 0;
+}
+
+.reason-title h2 {
+    font-size: 42px;
+    margin-bottom: 0;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+}
+
+@media screen and (max-width: 1200px) {
+    .reason-title h2 {
+        font-size: 34px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .reason-title h2 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .reason-title h2 {
+        font-size: 28px;
+    }
+}
+
+.reason-row {
+    align-items: flex-start;
+}
+
+.col {
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 992px) {
+    .col {
+        width: 25%;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 991px) {
+    .col {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .reason-item-wrap {
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .reason-item-wrap {
+        text-align: center;
+        max-width: 280px;
+        margin: 0 auto 60px;
+    }
+}
+
+.reason-icon {
+    margin-bottom: 35px;
+}
+
+.reason-icon img {
+    width: 48px;
+    height: 48px;
+}
+
+.reason-content {
+    width: 77%;
+}
+
+@media screen and (max-width: 1200px) {
+    .reason-content {
+        width: 98%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .reason-content {
+        width: 100%;
+    }
+}
+
+.reason-content h2 {
+    font-size: 22px;
+    margin-bottom: 24px;
+    font-weight: 500;
+    text-transform: none;
+    line-height: 1.27;
+}
+
+.reason-content h2 a {
+    color: inherit;
+}
+
+.reason-content h2 a:hover {
+    color: #00C4F4;
+    text-decoration: none;
+}
+
+.reason-content p {
+    margin-bottom: 0px;
+    font-size: 15px;
+    line-height: 22px;
+    color: #A4B4C3;
+}
