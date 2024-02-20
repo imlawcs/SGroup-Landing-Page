@@ -45,7 +45,9 @@
 }
 
 @media screen and (max-width: 992px) {
-    justify-content: center;
+    .counter-row{
+        justify-content: center;
+    }
 }
 
 .counter-col {
