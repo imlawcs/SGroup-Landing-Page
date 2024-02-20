@@ -742,4 +742,164 @@ img, .img {
     color: #00C4F4;
 }
 
+.team-item-wrap {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.team-thumb {
+    margin-bottom: 35px;
+}
+
+.team-title {
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.team-content span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.team-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-content .team-social li {
+    padding: 0 10px;
+}
+
+.team-content .team-social li a {
+    color: #fff;
+    font-size: 13px;
+}
+
+.team-content .team-social li a:hover {
+    color: #00C4F4;
+}
+
 /* end team-area */
+/* download-area */
+
+.download {
+    padding-bottom: 140px;
+    padding-top: 150px;
+}
+
+.download-row {
+    align-items: center;
+}
+
+.download-title {
+    margin-bottom: 20px;
+}
+
+.download-sub-title {
+    color: #564DCA;
+    letter-spacing: 0.02em;
+    padding: 0;
+    text-decoration: underline;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+}
+
+.download-main-title {
+    color: #030B15;
+    line-height: 1.26;
+    margin-bottom: 0;
+}
+
+.download-content p {
+    color: #727885;
+    margin-bottom: 30px;
+}
+
+.download-button-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.download-button-wrap a{
+    margin-right: 20px;
+    margin-top: 10px;
+    display: block;
+}
+
+.download-pic {
+    text-align: center;
+}
+/* end download-area */
+/* question-area */
+
+.faq-area {
+    background: #F3F6FC;
+    padding: 120px 0 130px;
+    position: relative;
+    z-index: 1;
+}
+
+.img-three {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5%;
+}
+
+.faq-shape-wrap img{
+    position: absolute;
+    z-index: -1;
+}
+
+.faq-col {
+    width: 100%;
+    padding: 0 15px;
+}
+
+.faq-title {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.faq-main-title {
+    color: #030B15;
+    line-height: 1.26;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.faq-item {
+    background-color: transparent;
+    border: none;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.faq-item-body {
+    display: none;
+}
+
+.faq-item-header button {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Poppins';
+    line-height: 1.25;
+    padding: 37px 100px 37px 55px;
+    border-radius: 100px;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    border: 0;
+}
+
+/* end question-area */
