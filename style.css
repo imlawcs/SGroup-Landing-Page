@@ -72,3 +72,7 @@ a:hover {
     color: #00C4F4;
     text-decoration: none;
 }
+
+input:focus {
+    outline: 0;
+}
