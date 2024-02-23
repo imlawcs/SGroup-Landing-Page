@@ -35,15 +35,6 @@
     box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
 }
 
-@keyframes header {
-    from {
-        background-color: none;
-    }
-    to {
-        background-color: #030B15;
-    }
-}
-
 .header-container {
     max-width: 1520px;
     margin: 0 auto;

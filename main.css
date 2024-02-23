@@ -46,17 +46,6 @@
     text-align: center;
 }
 
-@keyframes fadeInDown {
-    0% {
-      opacity: 0;
-      transform: translateY(-20px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-
 .title-banner {
     font-size: 55px;
     font-family: 'Poppins', sans-serif;
@@ -64,16 +53,15 @@
     margin-top: 0px;
     font-style: normal;
     font-weight: 600;
-
     margin-bottom: 65px;
     line-height: 1.36;
     text-transform: none;
     margin-bottom: 65px;
     line-height: 1.4;
     letter-spacing: -0.01em;
-    visibility: visible;
     animation-delay: 0.2s;
     animation-name: fadeInDown;
+    animation-duration: 2s;
 }
 
 /* @media screen and (max-width: 768px) {
@@ -298,6 +286,13 @@
     margin: 0;
 }
 
+/* .about-content {
+    animation-delay: 0.2s;
+    animation-name: fadeInRight;
+    animation-duration: 2s;
+} */
+
+
 .about-content p {
     color: #727885;
     margin-bottom: 20px;
@@ -362,12 +357,6 @@
     animation: leftToRight 5s infinite linear;
 }
 
-@keyframes leftToRight {
-    0%   {left:7%; bottom: 90px;}
-    50%  {left: 9%; bottom: 90px;}
-    100% {left: 7%; bottom: 90px;}
-}
-
 .about-shape-wrap img.shape-one {
 	left: 9%;
 	bottom: 90px;
@@ -375,15 +364,6 @@
     animation-name: leftToRight;
     animation-duration: 5s;
     animation-timing-function: infinite;
-}
-
-@keyframes Rotate {
-    from {
-       transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
 }
 
 .shape-two {
@@ -1025,26 +1005,11 @@ img, .img {
     bottom: 4%;
 }
 
-@keyframes leftToRight {
-    0%   {transform: translateX(0px);}
-    50%  {transform: translateX(50px);}
-    100% {transform: translateX(0px);}
-}
-
 .img-two {
 	animation: leftToRight 5s infinite linear;
     animation-name: leftToRight;
     animation-duration: 5s;
     animation-timing-function: infinite;
-}
-
-@keyframes Rotate {
-    from {
-       transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
 }
 
 /* end question-area */
