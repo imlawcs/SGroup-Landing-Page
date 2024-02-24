@@ -534,6 +534,10 @@
     .team-sub-main-title {
         font-size: 40px;
     }
+    .team-title {
+        margin-bottom: 8px;
+        font-size: 19px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -556,7 +560,7 @@
 
 @media screen and (min-width: 768px) {
     .team-col {
-        width: 33.3%;
+        width: 33.3333333%;
     }
 }
 
@@ -750,7 +754,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .footer-main-menu li {
         margin-right: 20px;
     }

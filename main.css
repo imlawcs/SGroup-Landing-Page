@@ -631,7 +631,9 @@ img, .img {
 }
 
 .roadmap-wrap .roadmap-item:nth-child(3),
-.roadmap-wrap .roadmap-item:nth-child(4) {
+.roadmap-wrap .roadmap-item:nth-child(4), 
+.roadmap-wrap-bottom .roadmap-item:nth-child(3),
+.roadmap-wrap-bottom .roadmap-item:nth-child(4) {
     margin-left: 0;
 }
 
@@ -951,7 +953,29 @@ img, .img {
 }
 
 .faq-item-body {
+    padding: 0 40px 45px 55px;
+    background: #fff;
+    position: relative;
     display: none;
+    margin-bottom: 20px;
+}
+
+.faq-item-body::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    background: #00C4F4;
+}
+
+.faq-item-body p {
+    margin: 0;
+    color: #727885;
+    font-size: 18px;
+    line-height: 1.55;
+    font-weight: 550;
 }
 
 .faq-item-header button {
@@ -970,6 +994,18 @@ img, .img {
     text-align: left;
     background-color: #fff;
     border: 0;
+}
+
+.faq-item:hover .faq-item-body{
+    display: block;
+}
+
+.faq-item:hover .faq-item-header button {
+    border-radius: 0;
+}
+
+.faq-item:hover .faq-item-header {
+    margin-bottom: 0;
 }
 
 .faq-item-header button::after {
