@@ -244,6 +244,49 @@
     }
 }
 
+@media screen and (max-width: 1200px) {
+    .countdown-content {
+        column-gap: 70px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .countdown-content {
+        column-gap: 30px;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .countdown-content {
+        column-gap: 25px;
+    }
+    .countdown-content>div {
+        width: 110px;
+        height: 110px;
+        position: relative;
+    }
+    .countdown-canvas{
+        width: 110px;
+        height: 110px;
+    }
+    .countdown-value {
+        display: block;
+        line-height: 1;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0;
+        text-align: center;
+    }
+    .countdown-value div {
+        font-size: 30px;
+        margin-top: 0;
+    }
+
+}
+
 /* end countdown-responsive */
 
 /* about-responsive */

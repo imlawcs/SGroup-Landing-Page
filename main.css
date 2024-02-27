@@ -105,14 +105,18 @@
     padding: 0 12px;
 }
 
-.social-icon ul li:active {
+.social-icon ul li:hover{
     width: auto;
+}
+
+.social-icon ul li:hover .social-title {
+    display: block;
 }
 
 .social-icon ul li span {
 	color: #B5BAC4;
 	font-size: 14px;
-	font-weight: 500;
+	font-weight: 600;
 	padding-right: 14px;
 	display: none;
 }
