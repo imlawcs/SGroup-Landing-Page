@@ -310,7 +310,7 @@
     width: 300px;
     padding-right: 30px;
     max-width: 100%;
-    height: 100%;
+    height: 1024px;
     opacity: 0;
     visibility: hidden;
     z-index: 99;
@@ -365,6 +365,11 @@
     position: relative;
     padding: 30px 25px;
     text-align: left;
+    background: #0B1D33;
+}
+
+.menu-outer{
+    background: #0B1D33;
 }
 
 .mobile-main-menu {
@@ -379,7 +384,7 @@
     border-top: 1px solid rgb(255 255 255 / 6%);
 }
 
-.mobile-main-menu li a {
+.mobile-main-menu>li>a {
     position: relative;
     display: block;
     line-height: 24px;
@@ -408,6 +413,32 @@
     border-radius: 2px;
     transition: all 500ms ease;
     z-index: 5;
+} 
+
+.sub-menu {
+    display: none;
+}
+
+.sub-menu>li>a {
+    font-size: 15px;
+    margin-left: 20px;
+    position: relative;
+    display: block;
+    line-height: 24px;
+    padding: 10px 60px 10px 25px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    letter-spacing: 0.08em;
+}
+
+.mobile-menu-item:hover .dropdown-button {
+    transform: rotate(90deg);
+}
+
+.mobile-menu-item:hover .sub-menu {
+    display: block;
 }
 
 .menu-backdrop {
@@ -415,7 +446,7 @@
     right: 0;
     top: 0;
     width: 100%;
-    height: 100%;
+    height: 1024px;
     z-index: 2;
     transition: all 700ms ease;
     opacity: 0;
@@ -426,6 +457,10 @@
 .menu-bar:hover .menu-backdrop {
     opacity: 0.80;
     visibility: visible;
+}
+
+.mobile-menu .social-links {
+    background: #0B1D33;
 }
 
 .mobile-menu .social-links ul {
