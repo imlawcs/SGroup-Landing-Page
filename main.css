@@ -1245,7 +1245,7 @@ img, .img {
     font-size: 13px;
     color: #fff;
     font-weight: 900;
-    letter-spacing: .5px;
+    letter-spacing: 1px;
     line-height: 1;
     margin-bottom: 0;
     text-align: center;
@@ -1253,6 +1253,11 @@ img, .img {
     transition: all 0.4s 0s;
     font-family: inherit;
     height: fit-content;
+}
+
+.sub-button:hover {
+    color: #fff;
+    background: #00C4F4;
 }
 
 /* end subcribe-area */
